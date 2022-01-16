@@ -509,7 +509,7 @@ export class Viewer extends EventDispatcher {
 
         if (bg === 'skybox') {
             this.skybox = Utils.loadSkybox(
-                new URL(Potree.resourcePath + '/textures/skybox2/').href,
+                new URL(Potree.resourcePath + '/textures/skybox/').href,
             );
         }
 
